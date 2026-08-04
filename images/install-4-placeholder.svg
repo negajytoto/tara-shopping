@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+    <rect width="800" height="800" rx="36" fill="#f3f9fa"/>
+    <rect x="44" y="44" width="712" height="712" rx="28" fill="none" stroke="#b9d8dc" stroke-width="4" stroke-dasharray="14 14"/>
+    <circle cx="400" cy="305" r="58" fill="#dff4f4"/>
+    <path d="M370 305h60M400 275v60" stroke="#0096a8" stroke-width="10" stroke-linecap="round"/>
+    <text x="400" y="445" text-anchor="middle" fill="#082f3d" font-family="Arial, sans-serif" font-size="38" font-weight="700">STEP 04</text>
+    <text x="400" y="500" text-anchor="middle" fill="#5f7b83" font-family="Arial, sans-serif" font-size="24">장력 조절·완성</text>
+    <text x="400" y="545" text-anchor="middle" fill="#0096a8" font-family="Arial, sans-serif" font-size="19" font-weight="700">실제 설치 사진</text>
+    </svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+    <rect width="320" height="360" rx="28" fill="#f3f9fa"/>
+    <circle cx="45" cy="45" r="24" fill="#07566a"/><text x="45" y="53" fill="white" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">1</text>
+    <rect x="85" y="105" width="150" height="30" rx="12" fill="#173c46"/><path d="M160 135 L105 205 M160 135 L215 205" stroke="#173c46" stroke-width="16" stroke-linecap="round"/><rect x="152" y="55" width="16" height="80" rx="8" fill="#8299a1"/>
+    <text x="28" y="305" fill="#083543" font-family="Arial" font-size="22" font-weight="700">받침대 연결</text>
+    <text x="28" y="335" fill="#607880" font-family="Arial" font-size="12">세로 폴대를 받침대 홈에 맞춰 고정합니다.</text></svg>

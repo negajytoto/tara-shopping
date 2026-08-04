@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f2f9fb"/>
+  <rect x="100" y="110" width="1000" height="680" rx="34" fill="#ffffff" stroke="#cce5ea" stroke-width="6"/>
+  <rect x="190" y="205" width="820" height="500" rx="26" fill="#f7fcfd"/>
+  <rect x="240" y="250" width="260" height="330" rx="18" fill="#0f4c5c"/>
+  <rect x="520" y="250" width="340" height="330" rx="18" fill="#dff4f5"/>
+  <rect x="545" y="280" width="290" height="220" rx="16" fill="#ffffff"/>
+  <rect x="565" y="300" width="95" height="160" rx="10" fill="#127a8a"/>
+  <rect x="680" y="300" width="115" height="120" rx="10" fill="#0f4c5c"/>
+  <path d="M240 620 L510 620" stroke="#127a8a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M520 620 L860 620" stroke="#7ec8cf" stroke-width="12" stroke-linecap="round"/>
+  <rect x="270" y="280" width="200" height="130" rx="14" fill="#fefefe"/>
+  <rect x="270" y="430" width="200" height="80" rx="14" fill="#fefefe" opacity="0.95"/>
+  <text x="220" y="165" font-family="'Noto Sans KR', sans-serif" font-size="34" font-weight="700" fill="#0f4c5c">실내용 하이배너 측면</text>
+  <text x="540" y="590" font-family="'Noto Sans KR', sans-serif" font-size="22" fill="#58707d">거치대가 안정적으로 지지하는 형태입니다</text>
+</svg>

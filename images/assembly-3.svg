@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+    <rect width="320" height="360" rx="28" fill="#f3f9fa"/>
+    <circle cx="45" cy="45" r="24" fill="#07566a"/><text x="45" y="53" fill="white" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">3</text>
+    <rect x="150" y="35" width="16" height="210" rx="8" fill="#8299a1"/><path d="M105 65 H205 M105 215 H205" stroke="#0796a8" stroke-width="12" stroke-linecap="round"/><path d="M75 140 H235" stroke="#4fc4cc" stroke-width="4" stroke-dasharray="8 8"/>
+    <text x="28" y="305" fill="#083543" font-family="Arial" font-size="22" font-weight="700">높이 맞추기</text>
+    <text x="28" y="335" fill="#607880" font-family="Arial" font-size="12">폴대를 세우고 출력물이 팽팽하도록 조정합니다.</text></svg>

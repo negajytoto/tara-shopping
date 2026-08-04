@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900">
+<defs>
+ <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#063f50"/><stop offset=".55" stop-color="#0098aa"/><stop offset="1" stop-color="#82d8dc"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8ba1a9"/><stop offset=".5" stop-color="#f3f7f8"/><stop offset="1" stop-color="#697f87"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="900" height="900" rx="44" fill="#f1f8f9"/>
+<ellipse cx="460" cy="825" rx="250" ry="32" fill="#0c3542" opacity=".12"/>
+<g filter="url(#s)">
+ <rect x="290" y="95" width="310" height="605" rx="8" fill="url(#p)"/>
+ <circle cx="520" cy="210" r="110" fill="#fff" opacity=".12"/>
+ <text x="335" y="225" fill="#fff" font-size="25" font-family="Arial" letter-spacing="6">TARA DISPLAY</text>
+ <text x="335" y="335" fill="#fff" font-size="66" font-family="Arial" font-weight="700">MAKE</text>
+ <text x="335" y="405" fill="#fff" font-size="66" font-family="Arial" font-weight="700">IT CLEAR.</text>
+ <text x="335" y="480" fill="#dff9fb" font-size="22" font-family="Arial">Indoor high banner</text>
+ <rect x="335" y="535" width="128" height="43" rx="21" fill="#fff"/>
+ <text x="365" y="563" fill="#074e60" font-size="15" font-family="Arial" font-weight="700">DETAIL</text>
+</g>
+<rect x="255" y="680" width="380" height="22" rx="11" fill="#183c46"/>
+<rect x="430" y="700" width="28" height="105" rx="14" fill="url(#metal)"/>
+<path d="M444 796 L300 835 M444 796 L590 835" stroke="#183c46" stroke-width="20" stroke-linecap="round"/>
+<circle cx="290" cy="100" r="8" fill="#eaf2f3"/><circle cx="600" cy="100" r="8" fill="#eaf2f3"/>
+</svg>

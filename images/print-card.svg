@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f2f9fb"/>
+  <rect x="100" y="110" width="1000" height="680" rx="34" fill="#ffffff" stroke="#cce5ea" stroke-width="6"/>
+  <rect x="180" y="190" width="840" height="520" rx="26" fill="#f7fcfd"/>
+  <rect x="250" y="250" width="320" height="360" rx="20" fill="#0f4c5c"/>
+  <rect x="590" y="250" width="320" height="360" rx="20" fill="#ffffff" stroke="#b8dbe0" stroke-width="4"/>
+  <rect x="620" y="280" width="260" height="220" rx="16" fill="#dff4f5"/>
+  <rect x="650" y="310" width="90" height="160" rx="10" fill="#127a8a"/>
+  <rect x="750" y="310" width="94" height="120" rx="10" fill="#0f4c5c"/>
+  <rect x="280" y="275" width="260" height="110" rx="14" fill="#fefefe"/>
+  <rect x="280" y="400" width="260" height="70" rx="14" fill="#fefefe" opacity="0.95"/>
+  <rect x="320" y="640" width="220" height="18" rx="9" fill="#0f4c5c"/>
+  <rect x="620" y="640" width="260" height="18" rx="9" fill="#7ec8cf"/>
+  <rect x="330" y="620" width="200" height="24" rx="12" fill="#0f4c5c" opacity="0.8"/>
+  <rect x="625" y="620" width="250" height="24" rx="12" fill="#7ec8cf" opacity="0.7"/>
+  <text x="220" y="165" font-family="'Noto Sans KR', sans-serif" font-size="34" font-weight="700" fill="#0f4c5c">실내용 하이배너 정면</text>
+  <text x="620" y="590" font-family="'Noto Sans KR', sans-serif" font-size="22" fill="#58707d">실내 전시용 거치대와 배너가 함께 보입니다</text>
+</svg>
