@@ -1,0 +1,191 @@
+<!-- 타라 파워(실내)배너 상세페이지 / CSS·JS 인라인 / 이미지 절대경로 -->
+<div id="tara-power-banner-detail" style="width:100%;max-width:100%;margin:0;padding:0;box-sizing:border-box;background:#fff;color:#1f2933;font-family:Arial,'Noto Sans KR','Malgun Gothic',sans-serif;">
+<style>
+#tara-power-banner-detail,#tara-power-banner-detail *{box-sizing:border-box}
+#tara-power-banner-detail img{display:block;max-width:100%;height:auto}
+#tara-power-banner-detail .inner{width:100%;max-width:1200px;margin:0 auto;padding:0 24px}
+#tara-power-banner-detail .sec{width:100%;padding:88px 0;border-top:1px solid #e7ecef}
+#tara-power-banner-detail .alt{background:#f6f8f9}
+#tara-power-banner-detail .head{margin-bottom:42px}
+#tara-power-banner-detail .line{width:44px;height:3px;margin-bottom:18px;background:#0097a9}
+#tara-power-banner-detail .k{margin:0 0 12px;color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.17em}
+#tara-power-banner-detail h2{margin:0;color:#142f3b;font-size:42px;line-height:1.25;letter-spacing:-.045em}
+#tara-power-banner-detail .desc{margin:20px 0 0;color:#65747c;font-size:16px;line-height:1.85}
+#tara-power-banner-detail .hero{padding-top:44px;border-top:0}
+#tara-power-banner-detail .hero-box{display:grid;grid-template-columns:52% 48%;border:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .hero-img{padding:30px;background:#f7f9fa}
+#tara-power-banner-detail .hero-copy{padding:54px}
+#tara-power-banner-detail .hero-copy h2{font-size:46px}
+#tara-power-banner-detail .checks{display:grid;grid-template-columns:50% 50%;margin-top:30px;border-top:1px solid #dfe5e8;border-left:1px solid #dfe5e8}
+#tara-power-banner-detail .check{padding:17px;border-right:1px solid #dfe5e8;border-bottom:1px solid #dfe5e8;font-size:14px;font-weight:700;color:#324b56}
+#tara-power-banner-detail .check:before{content:'\2713';margin-right:8px;color:#0097a9}
+#tara-power-banner-detail .info{display:grid;grid-template-columns:repeat(4,25%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .info>div{padding:27px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea}
+#tara-power-banner-detail .info strong{display:block;margin-bottom:10px;color:#0097a9;font-size:13px}
+#tara-power-banner-detail .info span{font-size:16px;font-weight:700;line-height:1.55;color:#263f4a}
+#tara-power-banner-detail .feature-grid{display:grid;grid-template-columns:repeat(4,25%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .feature{min-height:245px;padding:30px 24px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .feature b{color:#0097a9;font-size:13px}
+#tara-power-banner-detail .feature h3{margin:65px 0 10px;color:#173946;font-size:21px}
+#tara-power-banner-detail .feature p{margin:0;color:#687982;font-size:14px;line-height:1.75}
+#tara-power-banner-detail .size-grid{display:grid;grid-template-columns:50% 50%;gap:24px}
+#tara-power-banner-detail .card{padding:24px;border:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .card img{width:100%;max-width:100%;height:auto;object-fit:contain;background:#f8fafb}
+#tara-power-banner-detail .card h3{margin:22px 0 8px;color:#173946;font-size:22px}
+#tara-power-banner-detail .card p{margin:0;color:#687982;font-size:14px;line-height:1.75}
+#tara-power-banner-detail .comp-grid,#tara-power-banner-detail .case-grid{display:grid;grid-template-columns:repeat(3,33.333%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .comp,#tara-power-banner-detail .case{padding:24px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .comp img,#tara-power-banner-detail .case img{width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#f7f9fa}
+#tara-power-banner-detail .comp h3,#tara-power-banner-detail .case h3{margin:20px 0 8px;color:#173946;font-size:20px}
+#tara-power-banner-detail .comp p,#tara-power-banner-detail .case p{margin:0;color:#687982;font-size:14px;line-height:1.7}
+#tara-power-banner-detail .step-grid{display:grid;grid-template-columns:repeat(4,25%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .step{padding:20px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .step img{width:100%;max-width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;background:#f7f9fa}
+#tara-power-banner-detail .step b{display:block;margin-top:18px;color:#0097a9;font-size:12px;letter-spacing:.08em}
+#tara-power-banner-detail .step h3{margin:8px 0;color:#173946;font-size:19px}
+#tara-power-banner-detail .step p{margin:0;color:#687982;font-size:13px;line-height:1.7}
+#tara-power-banner-detail .mat-grid{display:grid;grid-template-columns:repeat(3,33.333%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .mat{padding:24px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .mat img{width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+#tara-power-banner-detail .mat h3{margin:20px 0 10px;color:#173946;font-size:20px}
+#tara-power-banner-detail .mat p{margin:0;color:#687982;font-size:14px;line-height:1.7}
+#tara-power-banner-detail .finish{display:grid;grid-template-columns:repeat(3,33.333%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .finish>div{padding:30px 24px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .finish span{color:#0097a9;font-size:12px;font-weight:800}
+#tara-power-banner-detail .finish h3{margin:48px 0 10px;color:#173946;font-size:20px}
+#tara-power-banner-detail .finish p{margin:0;color:#687982;font-size:14px;line-height:1.7}
+#tara-power-banner-detail .guide{border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .g-row{display:grid;grid-template-columns:28% 72%;width:100%}
+#tara-power-banner-detail .g-row>div{padding:20px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;font-size:15px;line-height:1.6}
+#tara-power-banner-detail .g-key{font-weight:800;background:#fafbfb}
+#tara-power-banner-detail .g-val{color:#63757e}
+#tara-power-banner-detail .notice{margin-top:22px;padding:22px 24px;border-left:4px solid #0097a9;background:#edf6f7;color:#566b74;font-size:14px;line-height:1.75}
+#tara-power-banner-detail .delivery{display:grid;grid-template-columns:repeat(5,20%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
+#tara-power-banner-detail .delivery>div{padding:26px 20px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
+#tara-power-banner-detail .delivery span{display:block;color:#0097a9;font-size:12px;font-weight:800}
+#tara-power-banner-detail .delivery strong{display:block;margin:42px 0 10px;color:#173946;font-size:19px}
+#tara-power-banner-detail .delivery p{margin:0;color:#687982;font-size:13px;line-height:1.7}
+#tara-power-banner-detail .faq{border-top:1px solid #dfe5e8}
+#tara-power-banner-detail .faq:last-child{border-bottom:1px solid #dfe5e8}
+#tara-power-banner-detail .faq button{width:100%;display:flex;justify-content:space-between;align-items:center;padding:22px 0;border:0;background:#fff;color:#173946;font:inherit;font-size:16px;font-weight:800;text-align:left;cursor:pointer}
+#tara-power-banner-detail .ans{display:none;padding:0 0 22px;color:#687982;font-size:14px;line-height:1.8}
+#tara-power-banner-detail .faq.open .ans{display:block}
+@media(max-width:900px){
+#tara-power-banner-detail .inner{padding:0 18px}
+#tara-power-banner-detail .sec{padding:64px 0}
+#tara-power-banner-detail .hero-box{grid-template-columns:100%}
+#tara-power-banner-detail .info,#tara-power-banner-detail .feature-grid{grid-template-columns:50% 50%}
+#tara-power-banner-detail .size-grid,#tara-power-banner-detail .comp-grid,#tara-power-banner-detail .case-grid,#tara-power-banner-detail .mat-grid{grid-template-columns:100%}
+#tara-power-banner-detail .step-grid,#tara-power-banner-detail .finish{grid-template-columns:50% 50%}
+#tara-power-banner-detail .delivery{grid-template-columns:50% 50%}
+}
+@media(max-width:600px){
+#tara-power-banner-detail .hero-img,#tara-power-banner-detail .hero-copy{padding:22px}
+#tara-power-banner-detail .hero-copy h2,#tara-power-banner-detail h2{font-size:30px}
+#tara-power-banner-detail .checks,#tara-power-banner-detail .info,#tara-power-banner-detail .feature-grid,#tara-power-banner-detail .step-grid,#tara-power-banner-detail .finish,#tara-power-banner-detail .delivery,#tara-power-banner-detail .g-row{grid-template-columns:100%}
+}
+</style>
+
+<section class="sec hero"><div class="inner"><div class="hero-box">
+<div class="hero-img"><img src="https://tara-shopping.vercel.app/images/power-banner.jpg" alt="파워 실내배너 실제 제품 이미지" style="max-width:100%; height:auto"></div>
+<div class="hero-copy"><p class="k">POWER INDOOR BANNER</p><h2>공간을 안정감 있게 채우는<br>파워 실내배너</h2><p class="desc">받침대와 지지 구조가 출력물을 안정적으로 잡아주는 실내용 배너입니다. 매장 입구, 전시장, 안내 공간처럼 반복 설치가 필요한 장소에 적합합니다.</p>
+<div class="checks"><div class="check">안정적인 거치 구조</div><div class="check">출력물 교체 가능</div><div class="check">실내용 홍보에 적합</div><div class="check">매장·행사장 활용</div></div></div>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="info">
+<div><strong>상품 유형</strong><span>파워 실내배너</span></div><div><strong>추천 장소</strong><span>매장 · 전시장 · 행사장</span></div><div><strong>출력 방식</strong><span>실사출력</span></div><div><strong>사용 환경</strong><span>실내용 권장</span></div>
+</div></div></section>
+
+<section class="sec alt"><div class="inner"><div class="head"><div class="line"></div><p class="k">WHY POWER BANNER</p><h2>안정감과 활용성을 함께</h2><p class="desc">실내용 홍보물에 필요한 설치 편의성과 반복 사용성을 기준으로 구성했습니다.</p></div>
+<div class="feature-grid">
+<div class="feature"><b>01</b><h3>안정적인 구조</h3><p>받침대와 지지대가 출력물을 안정적으로 세워줍니다.</p></div>
+<div class="feature"><b>02</b><h3>빠른 설치</h3><p>거치대를 펼치고 출력물을 연결하는 간단한 방식입니다.</p></div>
+<div class="feature"><b>03</b><h3>출력물 교체</h3><p>시즌과 행사 내용이 바뀌면 출력물만 새로 제작할 수 있습니다.</p></div>
+<div class="feature"><b>04</b><h3>다양한 활용</h3><p>안내, 프로모션, 전시, 방향 표시 등 여러 목적에 사용할 수 있습니다.</p></div>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="head"><div class="line"></div><p class="k">SIZE GUIDE</p><h2>설치 공간에 맞는 규격 선택</h2><p class="desc">실제 주문 가능한 규격은 주문 화면의 옵션을 기준으로 확인해 주세요.</p></div>
+<div class="size-grid">
+<article class="card"><img src="https://tara-shopping.vercel.app/images/power-banner.jpg" alt="파워배너 실제 제품 이미지" style="max-width:100%; height:auto"><h3>슬림형</h3><p>통로, 테이블 옆, 작은 안내 공간처럼 설치 폭이 제한적인 장소에 적합합니다.</p></article>
+<article class="card"><img src="https://tara-shopping.vercel.app/images/power-banner-design.jpg" alt="파워배너 출력 디자인 예시" style="max-width:100%; height:auto"><h3>표준형</h3><p>매장 입구와 행사장처럼 메시지를 크게 보여줘야 하는 공간에 적합합니다.</p></article>
+</div></div></section>
+
+<section class="sec alt"><div class="inner"><div class="head"><div class="line"></div><p class="k">COMPONENTS</p><h2>구성품 안내</h2></div>
+<div class="comp-grid">
+<article class="comp"><img src="https://tara-shopping.vercel.app/images/power-component-stand.svg" alt="파워배너 거치대 이미지 자리" style="max-width:100%; height:auto"><h3>전용 거치대</h3><p>출력물을 세우고 지지하는 파워배너 전용 구조입니다.</p></article>
+<article class="comp"><img src="https://tara-shopping.vercel.app/images/power-component-print.svg" alt="파워배너 출력물 이미지 자리" style="max-width:100%; height:auto"><h3>출력물</h3><p>선택한 규격과 소재에 맞춰 실사출력합니다.</p></article>
+<article class="comp"><img src="https://tara-shopping.vercel.app/images/power-component-bag.svg" alt="파워배너 보관가방 이미지 자리" style="max-width:100%; height:auto"><h3>보관 구성품</h3><p>제품 옵션에 따라 가방 또는 포장 구성이 달라질 수 있습니다.</p></article>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="head"><div class="line"></div><p class="k">INSTALLATION</p><h2>간단한 설치 방법</h2></div>
+<div class="step-grid">
+<article class="step"><img src="https://tara-shopping.vercel.app/images/power-install-1.svg" alt="파워배너 설치 1단계" style="max-width:100%; height:auto"><b>STEP 01</b><h3>받침대 펼치기</h3><p>받침대가 흔들리지 않도록 바닥에 안정적으로 둡니다.</p></article>
+<article class="step"><img src="https://tara-shopping.vercel.app/images/power-install-2.svg" alt="파워배너 설치 2단계" style="max-width:100%; height:auto"><b>STEP 02</b><h3>폴대 연결</h3><p>지지 폴대를 순서대로 연결하고 높이를 맞춥니다.</p></article>
+<article class="step"><img src="https://tara-shopping.vercel.app/images/power-install-3.svg" alt="파워배너 설치 3단계" style="max-width:100%; height:auto"><b>STEP 03</b><h3>출력물 장착</h3><p>출력물을 거치대 연결부에 차례대로 고정합니다.</p></article>
+<article class="step"><img src="https://tara-shopping.vercel.app/images/power-install-4.svg" alt="파워배너 설치 4단계" style="max-width:100%; height:auto"><b>STEP 04</b><h3>수평 확인</h3><p>출력물이 바르게 서고 장력이 고르게 잡혔는지 확인합니다.</p></article>
+</div></div></section>
+
+<section class="sec alt"><div class="inner"><div class="head"><div class="line"></div><p class="k">MATERIAL</p><h2>출력 소재 안내</h2></div>
+<div class="mat-grid">
+<article class="mat"><img src="https://tara-shopping.vercel.app/images/material-pet-uv.jpg" alt="패트 UV 소재 실제 이미지" style="max-width:100%; height:auto"><h3>패트(UV)</h3><p>내구성과 선명한 표현이 필요한 배너 출력에 활용합니다.</p></article>
+<article class="mat"><img src="https://tara-shopping.vercel.app/images/material-pet-water.jpg" alt="패트 수성 소재 실제 이미지" style="max-width:100%; height:auto"><h3>패트(수성)</h3><p>실내용 안내와 프로모션에 적합한 일반적인 배너 소재입니다.</p></article>
+<article class="mat"><img src="https://tara-shopping.vercel.app/images/material-strip-mesh.jpg" alt="스트립 메쉬 소재 실제 이미지" style="max-width:100%; height:auto"><h3>스트립 메쉬</h3><p>미세한 망 구조로 가볍고 독특한 표면 표현이 가능합니다.</p></article>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="head"><div class="line"></div><p class="k">FINISHING</p><h2>후가공 안내</h2></div>
+<div class="finish">
+<div><span>01</span><h3>재단</h3><p>선택한 완성 규격에 맞춰 출력물을 정교하게 재단합니다.</p></div>
+<div><span>02</span><h3>거치대 결합부</h3><p>제품 구조에 맞춰 출력물을 연결할 수 있도록 마감합니다.</p></div>
+<div><span>03</span><h3>검수</h3><p>사이즈, 방향, 색상과 마감 상태를 확인한 뒤 포장합니다.</p></div>
+</div></div></section>
+
+<section class="sec alt"><div class="inner"><div class="head"><div class="line"></div><p class="k">USE CASE</p><h2>설치 사례</h2></div>
+<div class="case-grid">
+<article class="case"><img src="https://tara-shopping.vercel.app/images/power-case-store.svg" alt="매장 입구 설치 사례 이미지 자리" style="max-width:100%; height:auto"><h3>매장 입구</h3><p>신상품, 할인, 운영시간과 프로모션 안내에 활용합니다.</p></article>
+<article class="case"><img src="https://tara-shopping.vercel.app/images/power-case-event.svg" alt="행사장 설치 사례 이미지 자리" style="max-width:100%; height:auto"><h3>행사·전시장</h3><p>부스 소개, 일정, 위치와 브랜드 메시지를 전달합니다.</p></article>
+<article class="case"><img src="https://tara-shopping.vercel.app/images/power-case-office.svg" alt="학교 기관 설치 사례 이미지 자리" style="max-width:100%; height:auto"><h3>학교·기관</h3><p>방향 안내, 공지사항과 행사 정보를 정돈해 보여줍니다.</p></article>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="head"><div class="line"></div><p class="k">FILE GUIDE</p><h2>출력 파일 제작 가이드</h2></div>
+<div class="guide">
+<div class="g-row"><div class="g-key">색상 모드</div><div class="g-val">CMYK 권장</div></div>
+<div class="g-row"><div class="g-key">권장 해상도</div><div class="g-val">실사이즈 기준 150dpi 이상</div></div>
+<div class="g-row"><div class="g-key">재단 여백</div><div class="g-val">사방 10mm 이상 권장</div></div>
+<div class="g-row"><div class="g-key">안전 영역</div><div class="g-val">가장자리와 연결부 주변에는 중요한 문구와 로고를 배치하지 마세요.</div></div>
+<div class="g-row"><div class="g-key">권장 파일</div><div class="g-val">PDF · AI · PSD</div></div>
+<div class="g-row"><div class="g-key">폰트</div><div class="g-val">윤곽선 처리 또는 포함 저장</div></div>
+</div>
+<div class="notice"><strong>확인 사항:</strong> 실제 제작 규격, 소재, 거치대 구성과 출고 일정은 주문 화면에서 선택한 옵션을 기준으로 합니다.</div>
+</div></section>
+
+<section class="sec alt"><div class="inner"><div class="head"><div class="line"></div><p class="k">PROCESS</p><h2>제작 및 배송 과정</h2></div>
+<div class="delivery">
+<div><span>01</span><strong>주문 접수</strong><p>규격, 소재와 수량을 선택해 주문합니다.</p></div>
+<div><span>02</span><strong>파일 확인</strong><p>해상도, 폰트와 안전 영역을 점검합니다.</p></div>
+<div><span>03</span><strong>출력</strong><p>선택한 옵션에 맞춰 실사출력을 진행합니다.</p></div>
+<div><span>04</span><strong>후가공</strong><p>재단과 연결부 마감을 진행하고 검수합니다.</p></div>
+<div><span>05</span><strong>포장·배송</strong><p>구성품을 확인한 뒤 안전하게 포장해 출고합니다.</p></div>
+</div></div></section>
+
+<section class="sec"><div class="inner"><div class="head"><div class="line"></div><p class="k">FAQ</p><h2>자주 묻는 질문</h2></div>
+<div class="faq open"><button type="button"><span>출력물만 별도로 제작할 수 있나요?</span><span class="ico">-</span></button><div class="ans">보유한 거치대 규격과 연결 방식이 주문 상품과 맞는지 확인한 뒤 출력물만 주문해 주세요.</div></div>
+<div class="faq"><button type="button"><span>실외에서도 사용할 수 있나요?</span><span class="ico">+</span></button><div class="ans">파워배너는 기본적으로 실내용을 권장합니다. 바람과 비가 있는 환경에서는 실외 전용 제품을 선택해 주세요.</div></div>
+<div class="faq"><button type="button"><span>실제 색상과 화면 색상이 다른 이유는 무엇인가요?</span><span class="ico">+</span></button><div class="ans">모니터의 RGB 표현과 출력의 CMYK 방식이 다르기 때문에 색상 차이가 발생할 수 있습니다.</div></div>
+<div class="faq"><button type="button"><span>파일에 여백을 얼마나 넣어야 하나요?</span><span class="ico">+</span></button><div class="ans">재단 오차를 고려해 사방 10mm 이상의 여백을 권장하며, 중요한 문구는 안전 영역 안에 배치해 주세요.</div></div>
+</div></section>
+
+<script>
+(function(){
+var root=document.getElementById('tara-power-banner-detail');
+if(!root)return;
+root.querySelectorAll('.faq button').forEach(function(btn){
+btn.addEventListener('click',function(){
+var item=btn.closest('.faq');
+var icon=btn.querySelector('.ico');
+var open=item.classList.toggle('open');
+if(icon)icon.textContent=open?'-':'+';
+});
+});
+})();
+</script>
+</div>
