@@ -1,155 +1,51 @@
-<!-- X-banner detail-only section -->
-<div id="tara-xbanner-detail" style="width:100%;max-width:100%;margin:0;padding:0;box-sizing:border-box;background:#fff;color:#1f2933;font-family:Arial,'Noto Sans KR','Malgun Gothic',sans-serif;">
-<style>
-#tara-xbanner-detail,#tara-xbanner-detail *{box-sizing:border-box}
-#tara-xbanner-detail img{max-width:100%;height:auto;display:block}
-#tara-xbanner-detail .inner{width:100%;max-width:1200px;margin:0 auto;padding:0 24px}
-#tara-xbanner-detail .sec{width:100%;padding:84px 0;border-top:1px solid #e6eaed}
-#tara-xbanner-detail .sec.alt{background:#f7f9fa}
-#tara-xbanner-detail .head{margin-bottom:42px}
-#tara-xbanner-detail .line{width:42px;height:3px;margin:0 0 18px;background:#0097a9}
-#tara-xbanner-detail .k{margin:0 0 12px;color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em}
-#tara-xbanner-detail h2{margin:0;color:#142f3b;font-size:42px;line-height:1.25;letter-spacing:-.045em}
-#tara-xbanner-detail p.desc{margin:20px 0 0;color:#65747c;font-size:16px;line-height:1.85}
-#tara-xbanner-detail .intro{padding-top:40px;border-top:0}
-#tara-xbanner-detail .intro-box{display:grid;grid-template-columns:50% 50%;border:1px solid #e1e7ea;background:#fff}
-#tara-xbanner-detail .intro-img{padding:28px;background:#f7f9fa}
-#tara-xbanner-detail .intro-copy{padding:52px}
-#tara-xbanner-detail .intro-copy ul{margin:28px 0 0;padding:0;list-style:none;border-top:1px solid #e1e7ea}
-#tara-xbanner-detail .intro-copy li{padding:17px 0;border-bottom:1px solid #e1e7ea;color:#475d67;font-size:15px}
-#tara-xbanner-detail .intro-copy b{display:inline-block;width:28%;color:#173946}
-#tara-xbanner-detail .size-grid{display:grid;grid-template-columns:50% 50%;gap:24px}
-#tara-xbanner-detail .card{padding:24px;border:1px solid #e1e7ea;background:#fff}
-#tara-xbanner-detail .card img{width:100%;max-width:100%;height:auto;object-fit:contain;background:#f8fafb}
-#tara-xbanner-detail .card h3{margin:22px 0 8px;color:#173946;font-size:22px}
-#tara-xbanner-detail .card p{margin:0;color:#687982;font-size:14px;line-height:1.7}
-#tara-xbanner-detail .step-grid{display:grid;grid-template-columns:repeat(4,25%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
-#tara-xbanner-detail .step{padding:20px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
-#tara-xbanner-detail .step img{width:100%;max-width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;background:#f7f9fa}
-#tara-xbanner-detail .step b{display:block;margin-top:18px;color:#0097a9;font-size:12px;letter-spacing:.08em}
-#tara-xbanner-detail .step h3{margin:8px 0;color:#173946;font-size:19px}
-#tara-xbanner-detail .step p{margin:0;color:#687982;font-size:13px;line-height:1.7}
-#tara-xbanner-detail .mat-grid{display:grid;grid-template-columns:repeat(3,33.333%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
-#tara-xbanner-detail .mat{padding:24px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea}
-#tara-xbanner-detail .mat img{width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#f5f7f8}
-#tara-xbanner-detail .mat h3{margin:20px 0 10px;color:#173946;font-size:20px}
-#tara-xbanner-detail .mat p{margin:0;color:#687982;font-size:14px;line-height:1.7}
-#tara-xbanner-detail .guide{border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
-#tara-xbanner-detail .g-row{display:grid;grid-template-columns:28% 72%;width:100%}
-#tara-xbanner-detail .g-row>div{padding:20px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;font-size:15px;line-height:1.6}
-#tara-xbanner-detail .g-key{font-weight:800;background:#fafbfb}
-#tara-xbanner-detail .g-val{color:#63757e}
-#tara-xbanner-detail .notice{margin-top:22px;padding:22px 24px;border-left:4px solid #0097a9;background:#f3f7f7;color:#566b74;font-size:14px;line-height:1.75}
-#tara-xbanner-detail .delivery{display:grid;grid-template-columns:repeat(4,25%);border-top:2px solid #1d3b47;border-left:1px solid #e1e7ea}
-#tara-xbanner-detail .delivery>div{padding:26px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;background:#fff}
-#tara-xbanner-detail .delivery span{display:block;color:#0097a9;font-size:12px;font-weight:800}
-#tara-xbanner-detail .delivery strong{display:block;margin:42px 0 10px;color:#173946;font-size:20px}
-#tara-xbanner-detail .delivery p{margin:0;color:#687982;font-size:14px;line-height:1.7}
-@media(max-width:900px){
-#tara-xbanner-detail .inner{padding:0 18px}
-#tara-xbanner-detail .sec{padding:64px 0}
-#tara-xbanner-detail .intro-box{grid-template-columns:100%}
-#tara-xbanner-detail .mat-grid,#tara-xbanner-detail .size-grid{grid-template-columns:100%}
-#tara-xbanner-detail .step-grid,#tara-xbanner-detail .delivery{grid-template-columns:50% 50%}
-}
-@media(max-width:600px){
-#tara-xbanner-detail .intro-img,#tara-xbanner-detail .intro-copy{padding:22px}
-#tara-xbanner-detail h2{font-size:30px}
-#tara-xbanner-detail .step-grid,#tara-xbanner-detail .delivery,#tara-xbanner-detail .g-row{grid-template-columns:100%}
-}
-</style>
+<div id="tara-xbanner-detail" style="width:100%;max-width:100%;margin:0;padding:0;background:#fff;color:#1f2933;font-family:Arial,'Noto Sans KR','Malgun Gothic',sans-serif;box-sizing:border-box;">
 
-<section class="sec intro">
-<div class="inner">
-<div class="intro-box">
-<div class="intro-img"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/xbanner-gallery-a.jpg" alt="X&#48176;&#45320; &#49892;&#51228; &#49444;&#52824; &#54805;&#53468;" style="max-width:100%; height:auto"></div>
-<div class="intro-copy">
-<p class="k">PRODUCT FEATURE</p>
-<h2>&#49444;&#52824;&#48512;&#53552; &#48372;&#44288;&#44620;&#51648;<br>&#44036;&#44208;&#54620; &#44396;&#51312;</h2>
-<p class="desc">X&#51088;&#54805; &#54532;&#47112;&#51076;&#51060; &#52636;&#47141;&#47932; &#45348; &#47784;&#49436;&#47532;&#47484; &#51105;&#50500;&#51452;&#50612; &#54077;&#54077;&#54616;&#44172; &#48372;&#50668;&#51452;&#47728;, &#51687;&#51008; &#49884;&#44036; &#50504;&#50640; &#49444;&#52824;&#54624; &#49688; &#51080;&#49845;&#45768;&#45796;.</p>
-<ul><li><b>&#49444;&#52824;</b>&#45348; &#47784;&#49436;&#47532;&#47484; &#49692;&#49436;&#45824;&#47196; &#50672;&#44208;</li><li><b>&#51060;&#46041;</b>&#44032;&#48316;&#50868; &#54532;&#47112;&#51076;&#51004;&#47196; &#44036;&#54200;&#54620; &#51060;&#46041;</li><li><b>&#44368;&#52404;</b>&#52636;&#47141;&#47932;&#47564; &#48320;&#44221;&#54644; &#44144;&#52824;&#45824; &#51116;&#49324;&#50857;</li><li><b>&#48372;&#44288;</b>&#48516;&#47532; &#54980; &#51089;&#51008; &#44277;&#44036;&#50640; &#48372;&#44288;</li></ul>
-</div>
-</div>
-</div>
-</section>
+<div style="width:100%;max-width:100%;padding:56px 0;background:#f5f8f9;border-bottom:1px solid #e6ecef;">
+<div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;">
+<div style="display:flex;flex-wrap:wrap;width:100%;border:1px solid #dfe6e9;background:#fff;">
+<div style="width:54%;padding:28px;background:#f8fafb;box-sizing:border-box;"><img src="https://tara-shopping.vercel.app/images/xbanner-main.jpg" alt="타라 X배너 실제 제품 이미지" style="display:block;width:100%;max-width:100%;height:auto;"></div>
+<div style="width:46%;padding:46px;box-sizing:border-box;">
+<div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">TARA X-BANNER</div>
+<div style="color:#142f3b;font-size:42px;line-height:1.25;font-weight:800;letter-spacing:-.04em;">가볍게 펼치고<br>또렷하게 알리는 X배너</div>
+<div style="margin-top:20px;color:#65747c;font-size:16px;line-height:1.85;">매장 입구, 행사장, 전시장, 학교와 기관 안내에 폭넓게 사용하는 실내용 배너입니다.</div>
+<table style="width:100%;margin-top:28px;border-collapse:collapse;border-top:2px solid #173946;">
+<tr><td style="width:32%;padding:16px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">추천 용도</td><td style="width:68%;padding:16px;border:1px solid #e1e7ea;color:#65747c;">매장 · 행사 · 전시 · 안내</td></tr>
+<tr><td style="width:32%;padding:16px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">대표 규격</td><td style="width:68%;padding:16px;border:1px solid #e1e7ea;color:#65747c;">600×1800 / 800×1800mm</td></tr>
+<tr><td style="width:32%;padding:16px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">사용 환경</td><td style="width:68%;padding:16px;border:1px solid #e1e7ea;color:#65747c;">실내용 권장</td></tr>
+</table>
+</div></div></div></div>
 
-<section class="sec alt"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">SIZE GUIDE</p><h2>&#49444;&#52824; &#44277;&#44036;&#50640; &#47582;&#45716; &#49324;&#51060;&#51592;</h2><p class="desc">&#51329;&#51008; &#53685;&#47196;&#45716; 600mm &#54253;, &#51068;&#48152; &#47588;&#51109;&#44284; &#54665;&#49324; &#44277;&#44036;&#51008; 800mm &#54253;&#51012; &#44428;&#51109;&#54633;&#45768;&#45796;.</p></div>
-<div class="size-grid">
-<article class="card"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/xbanner-main.jpg" alt="600&#215;1800mm X&#48176;&#45320;" style="max-width:100%; height:auto"><h3>600 &#215; 1800mm</h3><p>&#51329;&#51008; &#53685;&#47196;, &#53580;&#51060;&#48660; &#50694;, &#48169;&#54693; &#50504;&#45236;&#50640; &#51201;&#54633;&#54633;&#45768;&#45796;.</p></article>
-<article class="card"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/xbanner-gallery-b.jpg" alt="800&#215;1800mm X&#48176;&#45320;" style="max-width:100%; height:auto"><h3>800 &#215; 1800mm</h3><p>&#47588;&#51109; &#51077;&#44396;, &#54665;&#49324;&#51109;, &#51204;&#49884; &#44277;&#44036;&#50640; &#51201;&#54633;&#54633;&#45768;&#45796;.</p></article>
-</div>
-</div></section>
+<div style="width:100%;max-width:100%;padding:76px 0;background:#fff;border-bottom:1px solid #e7ecef;">
+<div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;">
+<div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div>
+<div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">WHY X-BANNER</div>
+<div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;">설치부터 보관까지 간결한 구조</div>
+<div style="display:flex;flex-wrap:wrap;width:100%;margin-top:36px;border-top:2px solid #173946;border-left:1px solid #e1e7ea;">
+<div style="width:25%;padding:28px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;box-sizing:border-box;"><div style="color:#0097a9;font-weight:800;">01</div><div style="margin-top:44px;font-size:20px;font-weight:800;color:#173946;">빠른 설치</div><div style="margin-top:10px;color:#687982;font-size:14px;line-height:1.7;">네 모서리를 연결하면 설치가 끝납니다.</div></div>
+<div style="width:25%;padding:28px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;box-sizing:border-box;"><div style="color:#0097a9;font-weight:800;">02</div><div style="margin-top:44px;font-size:20px;font-weight:800;color:#173946;">가벼운 이동</div><div style="margin-top:10px;color:#687982;font-size:14px;line-height:1.7;">행사장과 매장 사이를 쉽게 이동할 수 있습니다.</div></div>
+<div style="width:25%;padding:28px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;box-sizing:border-box;"><div style="color:#0097a9;font-weight:800;">03</div><div style="margin-top:44px;font-size:20px;font-weight:800;color:#173946;">출력물 교체</div><div style="margin-top:10px;color:#687982;font-size:14px;line-height:1.7;">프로모션이 바뀌면 출력물만 새로 제작합니다.</div></div>
+<div style="width:25%;padding:28px 22px;border-right:1px solid #e1e7ea;border-bottom:1px solid #e1e7ea;box-sizing:border-box;"><div style="color:#0097a9;font-weight:800;">04</div><div style="margin-top:44px;font-size:20px;font-weight:800;color:#173946;">다양한 활용</div><div style="margin-top:10px;color:#687982;font-size:14px;line-height:1.7;">안내, 행사, 캠페인과 브랜드 홍보에 적합합니다.</div></div>
+</div></div></div>
 
+<div style="width:100%;max-width:100%;padding:78px 0;background:#f6f8f9;border-bottom:1px solid #e7ecef;"><div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;"><div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div><div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">STAND GUIDE</div><div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;">용도에 맞는 X배너 거치대</div><div style="margin:18px 0 36px;color:#65747c;font-size:16px;line-height:1.85;">설치 환경과 예산, 각도 조절 여부에 따라 적합한 거치대를 선택해 주세요.</div><div style="width:100%;padding:16px;border:1px solid #e1e7ea;background:#fff;box-sizing:border-box;"><img src="https://tara-shopping.vercel.app/images/xbanner-stand-guide.png" alt="X배너 거치대 종류 비교" style="display:block;width:100%;max-width:100%;height:auto;"></div></div></div>
 
+<div style="width:100%;max-width:100%;padding:78px 0;background:#fff;border-bottom:1px solid #e7ecef;"><div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;"><div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div><div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">USE CASE</div><div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;">다양한 공간의 설치 사례</div><div style="margin:18px 0 36px;color:#65747c;font-size:16px;line-height:1.85;">매장, 전시장, 행사장, 학교, 카페와 병원 등 여러 공간에서 활용할 수 있습니다.</div><div style="width:100%;padding:16px;border:1px solid #e1e7ea;background:#fff;box-sizing:border-box;"><img src="https://tara-shopping.vercel.app/images/xbanner-installation-case.png" alt="X배너 설치 사례" style="display:block;width:100%;max-width:100%;height:auto;"></div></div></div>
 
-<section class="sec"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">STAND GUIDE</p><h2>&#50857;&#46020;&#50640; &#47582;&#45716; X&#48176;&#45320; &#44144;&#52824;&#45824; &#49440;&#53469;</h2><p class="desc">&#49444;&#52824; &#54872;&#44221;&#44284; &#50696;&#49328;, &#44033;&#46020; &#51312;&#51208; &#54596;&#50836; &#50668;&#48512;&#50640; &#46384;&#46972; &#51201;&#54633;&#54620; &#44144;&#52824;&#45824;&#47484; &#49440;&#53469;&#54616;&#49464;&#50836;.</p></div>
-<div style="width:100%;max-width:100%;margin:0 auto;border:1px solid #e1e7ea;background:#fff;padding:18px;">
-<img src="https://tara-shopping.vercel.app/images/xbanner-stand-guide.png" alt="X&#48176;&#45320; &#44144;&#52824;&#45824; &#51333;&#47448; &#48708;&#44368; &#50504;&#45236;" style="display:block;width:100%;max-width:100%;height:auto;">
-</div>
-<div class="notice"><strong>&#49440;&#53469; &#54017;:</strong> &#44032;&#48316;&#50868; &#51060;&#46041;&#49457;&#51012; &#50896;&#54616;&#47732; &#54616;&#51060;&#48176;&#45320; &#44144;&#52824;&#45824;, &#44033;&#46020; &#51312;&#51208;&#51060; &#54596;&#50836;&#54616;&#47732; &#44592;&#50612;&#48169;&#49885; &#53217;&#48176;&#45320; &#44144;&#52824;&#45824;&#47484; &#44428;&#51109;&#54633;&#45768;&#45796;.</div>
-</div></section>
+<div style="width:100%;max-width:100%;padding:78px 0;background:#f6f8f9;border-bottom:1px solid #e7ecef;"><div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;"><div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div><div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">REAL PRINTING GUIDE</div><div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;">실사출력 작업 방법</div><div style="margin:18px 0 36px;color:#65747c;font-size:16px;line-height:1.85;">정확하고 선명한 출력물을 위해 색상모드, 해상도, 글꼴, 이미지 포함 여부와 재단선을 확인해 주세요.</div><div style="width:100%;padding:16px;border:1px solid #e1e7ea;background:#fff;box-sizing:border-box;"><img src="https://tara-shopping.vercel.app/images/real-print-guide.png" alt="실사출력 작업 방법" style="display:block;width:100%;max-width:100%;height:auto;"></div></div></div>
 
+<div style="width:100%;max-width:100%;padding:74px 0;background:#fff;border-bottom:1px solid #e7ecef;"><div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;"><div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div><div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">FILE GUIDE</div><div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;margin-bottom:34px;">출력 파일 제작 가이드</div>
+<table style="width:100%;border-collapse:collapse;border-top:2px solid #173946;">
+<tr><td style="width:28%;padding:18px 20px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">색상 모드</td><td style="width:72%;padding:18px 20px;border:1px solid #e1e7ea;color:#63757e;">CMYK 권장</td></tr>
+<tr><td style="width:28%;padding:18px 20px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">권장 해상도</td><td style="width:72%;padding:18px 20px;border:1px solid #e1e7ea;color:#63757e;">실사이즈 기준 150dpi 이상</td></tr>
+<tr><td style="width:28%;padding:18px 20px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">재단 여백</td><td style="width:72%;padding:18px 20px;border:1px solid #e1e7ea;color:#63757e;">사방 10mm 이상 권장</td></tr>
+<tr><td style="width:28%;padding:18px 20px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">타공 안전 영역</td><td style="width:72%;padding:18px 20px;border:1px solid #e1e7ea;color:#63757e;">네 모서리에 중요한 문구와 로고를 배치하지 마세요.</td></tr>
+<tr><td style="width:28%;padding:18px 20px;border:1px solid #e1e7ea;background:#fafbfb;font-weight:800;">권장 파일</td><td style="width:72%;padding:18px 20px;border:1px solid #e1e7ea;color:#63757e;">PDF · AI · PSD</td></tr>
+</table></div></div>
 
-
-<section class="sec"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">USE CASE</p><h2>&#49444;&#52824; &#49324;&#47168;</h2><p class="desc">&#47588;&#51109;, &#51204;&#49884;&#51109;, &#54665;&#49324;&#51109;, &#54617;&#44368;, &#52852;&#54168;, &#48337;&#50896; &#46321; &#45796;&#50577;&#54620; &#44277;&#44036;&#50640;&#49436; X&#48176;&#45320;&#47484; &#54876;&#50857;&#54624; &#49688; &#51080;&#49845;&#45768;&#45796;.</p></div>
-<div style="width:100%;max-width:100%;margin:0 auto;border:1px solid #e1e7ea;background:#fff;padding:18px;">
-<img src="https://tara-shopping.vercel.app/images/xbanner-installation-case.png" alt="X&#48176;&#45320; &#49444;&#52824; &#49324;&#47168; &#50504;&#45236;" style="display:block;width:100%;max-width:100%;height:auto;">
-</div>
-</div></section>
-
-
-<section class="sec alt"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">MATERIAL GUIDE</p><h2>&#52636;&#47141; &#49548;&#51116; &#50504;&#45236;</h2></div>
-<div class="mat-grid">
-<article class="mat"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/material-pet.jpg" alt="&#54056;&#53944; &#49548;&#51116;" style="max-width:100%; height:auto"><h3>&#54056;&#53944;(PET)</h3><p>&#48731; &#48152;&#49324;&#44032; &#51201;&#44256; &#44032;&#46021;&#49457;&#51060; &#51339;&#49845;&#45768;&#45796;.</p></article>
-<article class="mat"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/material-film.jpg" alt="&#53804;&#47749;&#54596;&#47492; &#49548;&#51116;" style="max-width:100%; height:auto"><h3>&#53804;&#47749;&#54596;&#47492;</h3><p>&#53804;&#47749; &#54364;&#54788;&#51060; &#54596;&#50836;&#54620; &#50672;&#52636;&#50640; &#54876;&#50857;&#54633;&#45768;&#45796;.</p></article>
-<article class="mat"><img src="https://raw.githubusercontent.com/negajytoto/tara-shopping/main/images/material-mesh.jpg" alt="&#49828;&#53944;&#47549; &#47700;&#49772; &#49548;&#51116;" style="max-width:100%; height:auto"><h3>&#49828;&#53944;&#47549; &#47700;&#49772;</h3><p>&#48120;&#49464;&#54620; &#47581; &#44396;&#51312;&#51032; &#44032;&#48316;&#50868; &#49548;&#51116;&#51077;&#45768;&#45796;.</p></article>
-</div>
-</div></section>
-
-<section class="sec"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">FILE GUIDE</p><h2>&#52636;&#47141; &#54028;&#51068; &#51228;&#51089; &#44032;&#51060;&#46300;</h2></div>
-<div class="guide">
-<div class="g-row"><div class="g-key">&#49353;&#49345; &#47784;&#46300;</div><div class="g-val">CMYK &#44428;&#51109;</div></div>
-<div class="g-row"><div class="g-key">&#44428;&#51109; &#54644;&#49345;&#46020;</div><div class="g-val">&#49892;&#49324;&#51060;&#51592; &#44592;&#51456; 150dpi &#51060;&#49345;</div></div>
-<div class="g-row"><div class="g-key">&#51116;&#45800; &#50668;&#48177;</div><div class="g-val">&#49324;&#48169; 10mm &#51060;&#49345;</div></div>
-<div class="g-row"><div class="g-key">&#53440;&#44277; &#50504;&#51204; &#50689;&#50669;</div><div class="g-val">&#45348; &#47784;&#49436;&#47532;&#50640; &#51473;&#50836; &#47196;&#44256;&#50752; &#47928;&#44396;&#47484; &#48176;&#52824;&#54616;&#51648; &#47560;&#49464;&#50836;.</div></div>
-<div class="g-row"><div class="g-key">&#44428;&#51109; &#54028;&#51068;</div><div class="g-val">PDF &#183; AI &#183; PSD</div></div>
-<div class="g-row"><div class="g-key">&#54256;&#53944;</div><div class="g-val">&#50980;&#44285;&#49440; &#52376;&#47532; &#46608;&#45716; &#54252;&#54632; &#51200;&#51109;</div></div>
-</div>
-<div class="notice"><strong>&#52636;&#47141; &#51204; &#54869;&#51064;:</strong> &#51200;&#54644;&#49345;&#46020; &#51060;&#48120;&#51648;, &#54256;&#53944; &#45572;&#46973;, &#53804;&#47749;&#46020; &#50724;&#47448;&#45716; &#52572;&#51333; &#54408;&#51656;&#50640; &#50689;&#54693;&#51012; &#51460; &#49688; &#51080;&#49845;&#45768;&#45796;.</div>
-</div></section>
-
-<section class="sec alt"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">DELIVERY</p><h2>&#51228;&#51089; &#48143; &#48176;&#49569; &#50504;&#45236;</h2></div>
-<div class="delivery">
-<div><span>01</span><strong>&#54028;&#51068; &#54869;&#51064;</strong><p>&#54644;&#49345;&#46020;, &#54256;&#53944;, &#53440;&#44277; &#50689;&#50669;&#51012; &#51216;&#44160;&#54633;&#45768;&#45796;.</p></div>
-<div><span>02</span><strong>&#52636;&#47141;</strong><p>&#49440;&#53469;&#54620; &#49548;&#51116;&#50752; &#49324;&#51060;&#51592;&#50640; &#47582;&#52656; &#52636;&#47141;&#51012; &#51652;&#54665;&#54633;&#45768;&#45796;.</p></div>
-<div><span>03</span><strong>&#44160;&#49688; &#183; &#54252;&#51109;</strong><p>&#52636;&#47141; &#49345;&#53468;&#50752; &#44396;&#49457;&#54408;&#51012; &#54869;&#51064;&#54633;&#45768;&#45796;.</p></div>
-<div><span>04</span><strong>&#48176;&#49569;</strong><p>&#51228;&#51089; &#50756;&#47308; &#54980; &#49692;&#52264;&#51201;&#51004;&#47196; &#52636;&#44256;&#54633;&#45768;&#45796;.</p></div>
-</div>
-</div></section>
-
-
-<section class="sec"><div class="inner">
-<div class="head"><div class="line"></div><p class="k">FAQ</p><h2>&#51088;&#51452; &#47931;&#45716; &#51656;&#47928;</h2></div>
-<details open style="width:100%;border-top:1px solid #dfe5e8;">
-<summary style="cursor:pointer;list-style:none;padding:22px 0;color:#173946;font-size:16px;font-weight:800;">&#44144;&#52824;&#45824; &#50630;&#51060; &#52636;&#47141;&#47932;&#47564; &#51228;&#51089;&#54624; &#49688; &#51080;&#45208;&#50836;?</summary>
-<div style="padding:0 0 22px;color:#687982;font-size:14px;line-height:1.8;">&#44508;&#44201;&#44284; &#53440;&#44277; &#50948;&#52824;&#44032; &#47582;&#51004;&#47732; &#52636;&#47141;&#47932;&#47564; &#51228;&#51089;&#54624; &#49688; &#51080;&#49845;&#45768;&#45796;.</div>
-</details>
-<details style="width:100%;border-top:1px solid #dfe5e8;">
-<summary style="cursor:pointer;list-style:none;padding:22px 0;color:#173946;font-size:16px;font-weight:800;">&#49892;&#50808;&#50640;&#49436;&#46020; &#49324;&#50857;&#54624; &#49688; &#51080;&#45208;&#50836;?</summary>
-<div style="padding:0 0 22px;color:#687982;font-size:14px;line-height:1.8;">&#44592;&#48376;&#51201;&#51004;&#47196; &#49892;&#45236;&#50857;&#51012; &#44428;&#51109;&#54633;&#45768;&#45796;.</div>
-</details>
-<details style="width:100%;border-top:1px solid #dfe5e8;border-bottom:1px solid #dfe5e8;">
-<summary style="cursor:pointer;list-style:none;padding:22px 0;color:#173946;font-size:16px;font-weight:800;">&#52636;&#47141;&#47932;&#51060; &#45712;&#49832;&#54624; &#46412;&#45716; &#50612;&#46523;&#44172; &#54616;&#45208;&#50836;?</summary>
-<div style="padding:0 0 22px;color:#687982;font-size:14px;line-height:1.8;">&#45348; &#47784;&#49436;&#47532; &#50672;&#44208; &#49345;&#53468;&#50752; &#51473;&#50521; &#54260;&#45824; &#45458;&#51060;&#47484; &#54869;&#51064;&#54644; &#51109;&#47141;&#51012; &#51312;&#51208;&#54644; &#51452;&#49464;&#50836;.</div>
-</details>
-</div></section>
-
-
+<div style="width:100%;max-width:100%;padding:72px 0;background:#f6f8f9;"><div style="width:100%;max-width:1200px;margin:0 auto;padding:0 24px;box-sizing:border-box;"><div style="width:44px;height:3px;background:#0097a9;margin-bottom:18px;"></div><div style="color:#0097a9;font-size:12px;font-weight:800;letter-spacing:.16em;margin-bottom:12px;">FAQ</div><div style="color:#142f3b;font-size:38px;font-weight:800;line-height:1.3;letter-spacing:-.04em;margin-bottom:30px;">자주 묻는 질문</div>
+<details open style="width:100%;border-top:1px solid #dfe5e8;background:#fff;"><summary style="cursor:pointer;padding:22px;color:#173946;font-size:16px;font-weight:800;">거치대 없이 출력물만 제작할 수 있나요?</summary><div style="padding:0 22px 22px;color:#687982;font-size:14px;line-height:1.8;">보유한 거치대 규격과 타공 위치가 맞으면 출력물만 주문할 수 있습니다.</div></details>
+<details style="width:100%;border-top:1px solid #dfe5e8;background:#fff;"><summary style="cursor:pointer;padding:22px;color:#173946;font-size:16px;font-weight:800;">실외에서도 사용할 수 있나요?</summary><div style="padding:0 22px 22px;color:#687982;font-size:14px;line-height:1.8;">기본적으로 실내용을 권장합니다.</div></details>
+<details style="width:100%;border-top:1px solid #dfe5e8;border-bottom:1px solid #dfe5e8;background:#fff;"><summary style="cursor:pointer;padding:22px;color:#173946;font-size:16px;font-weight:800;">화면과 실제 출력 색상이 다른 이유는 무엇인가요?</summary><div style="padding:0 22px 22px;color:#687982;font-size:14px;line-height:1.8;">모니터의 RGB와 출력의 CMYK 방식 차이 때문에 색상 차이가 발생할 수 있습니다.</div></details>
+</div></div>
 
 </div>
