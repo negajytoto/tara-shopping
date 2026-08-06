@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"><rect width="1200" height="700" fill="#fff"/>
+<rect x="30" y="30" width="1140" height="640" rx="22" fill="#f7f9fa" stroke="#dfe6e9"/>
+<g font-family="Arial,sans-serif">
+<text x="75" y="115" font-size="18" font-weight="700" fill="#0097a9">TARA ROLL-UP BANNER</text>
+<text x="75" y="195" font-size="52" font-weight="800" fill="#142f3b">한 번에 펼치고, 깔끔하게 세우는</text>
+<text x="75" y="260" font-size="52" font-weight="800" fill="#142f3b">롤업배너</text>
+<text x="75" y="325" font-size="21" fill="#65747c">출력물이 본체 안으로 말려 들어가는 구조로</text>
+<text x="75" y="360" font-size="21" fill="#65747c">설치·철거·보관이 간편한 실내용 배너입니다.</text>
+<rect x="75" y="430" width="180" height="90" rx="14" fill="#edf6f7"/><text x="95" y="465" font-size="17" font-weight="700" fill="#142f3b">설치</text><text x="95" y="495" font-size="16" fill="#0097a9">빠른 전개</text>
+<rect x="275" y="430" width="180" height="90" rx="14" fill="#edf6f7"/><text x="295" y="465" font-size="17" font-weight="700" fill="#142f3b">보관</text><text x="295" y="495" font-size="16" fill="#0097a9">본체 수납</text>
+<rect x="475" y="430" width="180" height="90" rx="14" fill="#edf6f7"/><text x="495" y="465" font-size="17" font-weight="700" fill="#142f3b">용도</text><text x="495" y="495" font-size="16" fill="#0097a9">매장·행사·전시</text>
+<g transform="translate(770 85)">
+<rect x="70" y="10" width="250" height="470" rx="5" fill="#5847dc"/>
+<text x="195" y="205" text-anchor="middle" font-size="38" font-weight="800" fill="#fff">ROLL-UP</text>
+<text x="195" y="252" text-anchor="middle" font-size="38" font-weight="800" fill="#fff">BANNER</text>
+<rect x="45" y="480" width="300" height="55" rx="15" fill="#4d5559"/>
+<rect x="180" y="465" width="30" height="25" fill="#737d82"/>
+<line x1="195" y1="10" x2="195" y2="-35" stroke="#737d82" stroke-width="10"/>
+</g></g></svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590"><rect width="1200" height="590" fill="#fff"/>
+<g font-family="Arial,sans-serif">
+<text x="40" y="65" font-size="34" font-weight="800" fill="#142f3b">실사출력 작업 안내</text>
+<text x="40" y="105" font-size="18" fill="#65747c">본체 내부 수납 영역을 고려해 중요 문구는 안전 영역 안에 배치해 주세요.</text>
+<rect x="70" y="160" width="300" height="380" fill="#5847dc"/>
+<rect x="70" y="160" width="300" height="45" fill="#2f1d8f" opacity=".7"/><rect x="70" y="495" width="300" height="45" fill="#2f1d8f" opacity=".7"/>
+<rect x="95" y="220" width="250" height="255" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="220" y="345" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">중요 내용</text><text x="220" y="378" text-anchor="middle" font-size="17" fill="#fff">안전 영역</text>
+<text x="440" y="190" font-size="18" font-weight="700" fill="#142f3b">CMYK</text><text x="620" y="190" font-size="17" fill="#65747c">인쇄용 색상 모드 권장</text>
+<text x="440" y="255" font-size="18" font-weight="700" fill="#142f3b">해상도</text><text x="620" y="255" font-size="17" fill="#65747c">실사이즈 기준 150dpi 이상 권장</text>
+<text x="440" y="320" font-size="18" font-weight="700" fill="#142f3b">파일</text><text x="620" y="320" font-size="17" fill="#65747c">PDF · AI · PSD</text>
+<text x="440" y="385" font-size="18" font-weight="700" fill="#142f3b">폰트</text><text x="620" y="385" font-size="17" fill="#65747c">윤곽선 처리 또는 포함 저장</text>
+<text x="440" y="450" font-size="18" font-weight="700" fill="#142f3b">하단 영역</text><text x="620" y="450" font-size="17" fill="#65747c">본체 수납부에 가려질 수 있어 중요 내용 제외</text>
+</g></svg>
