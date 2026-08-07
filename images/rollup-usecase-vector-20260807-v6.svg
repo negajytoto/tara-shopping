@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" fill="#ffffff"/>
+  
+    <g transform="translate(18 18)">
+      <rect width="220" height="520" rx="18" fill="#ffffff" stroke="#dfe6e9"/>
+      <rect x="14" y="14" width="192" height="300" rx="12" fill="#ead9c6"/>
+      <rect x="28" y="236" width="164" height="60" rx="8" fill="#c8b18f"/>
+      <rect x="78" y="52" width="74" height="220" fill="#5a42d6" stroke="#39258e" stroke-width="3"/>
+      <rect x="70" y="272" width="90" height="18" rx="5" fill="#565b60"/>
+      <text x="115" y="130" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">ROLL-UP</text>
+      <text x="115" y="154" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">BANNER</text>
+      <circle cx="30" cy="352" r="17" fill="#5847dc"/>
+      <text x="30" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">1</text>
+      <text x="56" y="360" font-family="Arial,'Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#5847dc">카페 & 베이커리</text>
+      <text x="18" y="405" font-family="Arial,'Noto Sans KR',sans-serif" font-size="15" fill="#65747c">신메뉴·이벤트·할인 안내</text>
+      <text x="18" y="437" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">롤업배너를 세워 내용을</text>
+      <text x="18" y="463" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">선명하게 전달할 수 있습니다.</text>
+    </g>
+    <g transform="translate(254 18)">
+      <rect width="220" height="520" rx="18" fill="#ffffff" stroke="#dfe6e9"/>
+      <rect x="14" y="14" width="192" height="300" rx="12" fill="#e5d8ca"/>
+      <rect x="28" y="236" width="164" height="60" rx="8" fill="#c8b18f"/>
+      <rect x="78" y="52" width="74" height="220" fill="#5a42d6" stroke="#39258e" stroke-width="3"/>
+      <rect x="70" y="272" width="90" height="18" rx="5" fill="#565b60"/>
+      <text x="115" y="130" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">ROLL-UP</text>
+      <text x="115" y="154" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">BANNER</text>
+      <circle cx="30" cy="352" r="17" fill="#5847dc"/>
+      <text x="30" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">2</text>
+      <text x="56" y="360" font-family="Arial,'Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#5847dc">매장 & 쇼핑몰</text>
+      <text x="18" y="405" font-family="Arial,'Noto Sans KR',sans-serif" font-size="15" fill="#65747c">입구·안내 데스크 행사 정보</text>
+      <text x="18" y="437" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">롤업배너를 세워 내용을</text>
+      <text x="18" y="463" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">선명하게 전달할 수 있습니다.</text>
+    </g>
+    <g transform="translate(490 18)">
+      <rect width="220" height="520" rx="18" fill="#ffffff" stroke="#dfe6e9"/>
+      <rect x="14" y="14" width="192" height="300" rx="12" fill="#dceae5"/>
+      <rect x="28" y="236" width="164" height="60" rx="8" fill="#c8b18f"/>
+      <rect x="78" y="52" width="74" height="220" fill="#5a42d6" stroke="#39258e" stroke-width="3"/>
+      <rect x="70" y="272" width="90" height="18" rx="5" fill="#565b60"/>
+      <text x="115" y="130" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">ROLL-UP</text>
+      <text x="115" y="154" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">BANNER</text>
+      <circle cx="30" cy="352" r="17" fill="#5847dc"/>
+      <text x="30" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">3</text>
+      <text x="56" y="360" font-family="Arial,'Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#5847dc">병원 & 약국</text>
+      <text x="18" y="405" font-family="Arial,'Noto Sans KR',sans-serif" font-size="15" fill="#65747c">접수대·대기 공간 건강 정보</text>
+      <text x="18" y="437" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">롤업배너를 세워 내용을</text>
+      <text x="18" y="463" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">선명하게 전달할 수 있습니다.</text>
+    </g>
+    <g transform="translate(726 18)">
+      <rect width="220" height="520" rx="18" fill="#ffffff" stroke="#dfe6e9"/>
+      <rect x="14" y="14" width="192" height="300" rx="12" fill="#ddd9eb"/>
+      <rect x="28" y="236" width="164" height="60" rx="8" fill="#c8b18f"/>
+      <rect x="78" y="52" width="74" height="220" fill="#5a42d6" stroke="#39258e" stroke-width="3"/>
+      <rect x="70" y="272" width="90" height="18" rx="5" fill="#565b60"/>
+      <text x="115" y="130" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">ROLL-UP</text>
+      <text x="115" y="154" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">BANNER</text>
+      <circle cx="30" cy="352" r="17" fill="#5847dc"/>
+      <text x="30" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">4</text>
+      <text x="56" y="360" font-family="Arial,'Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#5847dc">전시회 & 이벤트</text>
+      <text x="18" y="405" font-family="Arial,'Noto Sans KR',sans-serif" font-size="15" fill="#65747c">부스·행사장 제품 홍보</text>
+      <text x="18" y="437" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">롤업배너를 세워 내용을</text>
+      <text x="18" y="463" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">선명하게 전달할 수 있습니다.</text>
+    </g>
+    <g transform="translate(962 18)">
+      <rect width="220" height="520" rx="18" fill="#ffffff" stroke="#dfe6e9"/>
+      <rect x="14" y="14" width="192" height="300" rx="12" fill="#e8e5dd"/>
+      <rect x="28" y="236" width="164" height="60" rx="8" fill="#c8b18f"/>
+      <rect x="78" y="52" width="74" height="220" fill="#5a42d6" stroke="#39258e" stroke-width="3"/>
+      <rect x="70" y="272" width="90" height="18" rx="5" fill="#565b60"/>
+      <text x="115" y="130" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">ROLL-UP</text>
+      <text x="115" y="154" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="16" font-weight="700" fill="#ffffff">BANNER</text>
+      <circle cx="30" cy="352" r="17" fill="#5847dc"/>
+      <text x="30" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#ffffff">5</text>
+      <text x="56" y="360" font-family="Arial,'Noto Sans KR',sans-serif" font-size="18" font-weight="700" fill="#5847dc">사무실 & 회의실</text>
+      <text x="18" y="405" font-family="Arial,'Noto Sans KR',sans-serif" font-size="15" fill="#65747c">공지·회의·회사 소개</text>
+      <text x="18" y="437" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">롤업배너를 세워 내용을</text>
+      <text x="18" y="463" font-family="Arial,'Noto Sans KR',sans-serif" font-size="14" fill="#65747c">선명하게 전달할 수 있습니다.</text>
+    </g>
+</svg>
