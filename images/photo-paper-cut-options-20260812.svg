@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="28" fill="#f4f7fb"/>
+<g font-family="Arial,Malgun Gothic,sans-serif">
+<text x="600" y="66" text-anchor="middle" font-size="34" font-weight="700" fill="#172033">재단 가공 안내</text>
+<text x="600" y="102" text-anchor="middle" font-size="17" fill="#667085">용도와 디자인에 맞춰 재단 방식을 선택하세요</text>
+<g transform="translate(38 145)">
+<rect width="260" height="410" rx="20" fill="#fff" stroke="#d9e3f0"/>
+<rect x="66" y="48" width="128" height="96" fill="#edf4ff" stroke="#326ed8" stroke-width="3"/>
+<text x="130" y="194" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">사각 재단</text>
+<text x="130" y="228" text-anchor="middle" font-size="15" fill="#667085">기본 사각형</text>
+<text x="130" y="260" text-anchor="middle" font-size="15" fill="#667085">포스터·액자·메뉴판</text>
+<path d="M76 318h108" stroke="#326ed8" stroke-width="3"/>
+<path d="M76 306v24M184 306v24" stroke="#326ed8" stroke-width="3"/>
+<text x="130" y="354" text-anchor="middle" font-size="14" fill="#326ed8">주문 사이즈로 재단</text>
+</g>
+<g transform="translate(326 145)">
+<rect width="260" height="410" rx="20" fill="#fff" stroke="#d9e3f0"/>
+<path d="M64 56h132v90H64z" fill="#edf4ff" stroke="#ff5a64" stroke-width="3"/>
+<path d="M52 44h156v114H52z" fill="none" stroke="#326ed8" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="130" y="194" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">모양재단(1장)</text>
+<text x="130" y="228" text-anchor="middle" font-size="15" fill="#667085">한 장에 한 개 모양</text>
+<text x="130" y="260" text-anchor="middle" font-size="15" fill="#667085">칼선과 이미지 함께 접수</text>
+<text x="130" y="328" text-anchor="middle" font-size="14" fill="#ff5a64">권장 최소 크기 60×20mm</text>
+</g>
+<g transform="translate(614 145)">
+<rect width="260" height="410" rx="20" fill="#fff" stroke="#d9e3f0"/>
+<g fill="#edf4ff" stroke="#326ed8" stroke-width="2"><path d="M56 58h50v42H56z"/><circle cx="153" cy="79" r="23"/><path d="M65 119l28 38H37z"/><path d="M138 121h54v36h-54z"/></g>
+<text x="130" y="194" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">모양재단(중)</text>
+<text x="130" y="228" text-anchor="middle" font-size="15" fill="#667085">한 판에 6~20개</text>
+<text x="130" y="260" text-anchor="middle" font-size="15" fill="#667085">여러 개 모양 배치</text>
+<text x="130" y="328" text-anchor="middle" font-size="14" fill="#326ed8">개체 간 충분한 간격 확보</text>
+</g>
+<g transform="translate(902 145)">
+<rect width="260" height="410" rx="20" fill="#fff" stroke="#d9e3f0"/>
+<g fill="#edf4ff" stroke="#ff5a64" stroke-width="2"><circle cx="77" cy="76" r="18"/><circle cx="127" cy="76" r="18"/><circle cx="177" cy="76" r="18"/><circle cx="77" cy="128" r="18"/><circle cx="127" cy="128" r="18"/><circle cx="177" cy="128" r="18"/></g>
+<text x="130" y="194" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">모양재단(대)</text>
+<text x="130" y="228" text-anchor="middle" font-size="15" fill="#667085">한 판에 1~5개</text>
+<text x="130" y="260" text-anchor="middle" font-size="15" fill="#667085">큰 모양 중심 배치</text>
+<text x="130" y="328" text-anchor="middle" font-size="14" fill="#ff5a64">복잡한 칼선은 단순화 권장</text>
+</g></g></svg>

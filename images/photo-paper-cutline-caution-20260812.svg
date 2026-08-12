@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" rx="28" fill="#f4f7fb"/>
+<g font-family="Arial,Malgun Gothic,sans-serif">
+<text x="600" y="64" text-anchor="middle" font-size="34" font-weight="700" fill="#172033">칼선 작업 시 주의사항</text>
+<text x="600" y="100" text-anchor="middle" font-size="17" fill="#667085">작은 굴곡과 날카로운 각은 단순하게 정리해 주세요</text>
+<g transform="translate(105 145)">
+<rect width="450" height="370" rx="24" fill="#fff"/>
+<path d="M225 46l35 71 78 11-56 55 13 77-70-37-70 37 13-77-56-55 78-11z" fill="#ffe16b"/>
+<path d="M225 28l42 84 92 14-67 65 16 92-83-44-83 44 16-92-67-65 92-14z" fill="none" stroke="#326ed8" stroke-width="5"/>
+<circle cx="225" cy="315" r="23" fill="#e9fff3" stroke="#18a86b" stroke-width="3"/>
+<path d="M214 315l8 8 16-19" fill="none" stroke="#18a86b" stroke-width="4"/>
+<text x="225" y="355" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">권장</text>
+</g>
+<g transform="translate(645 145)">
+<rect width="450" height="370" rx="24" fill="#fff"/>
+<path d="M225 45l20 69 31-52-4 73 64-34-44 58 80-2-72 35 71 35-80-3 45 59-64-35 4 73-31-52-20 69-20-69-31 52 4-73-64 35 44-59-80 3 72-35-71-35 80 2-45-58 64 34-4-73 31 52z" fill="#ffe16b"/>
+<path d="M225 23l26 79 38-60-7 83 76-40-53 67 91-4-82 43 82 43-91-4 53 67-76-40 7 83-38-60-26 79-26-79-38 60 7-83-76 40 53-67-91 4 82-43-82-43 91 4-53-67 76 40-7-83 38 60z" fill="none" stroke="#ff5562" stroke-width="4"/>
+<circle cx="225" cy="315" r="23" fill="#fff0f1" stroke="#ff5562" stroke-width="3"/>
+<path d="M214 304l22 22M236 304l-22 22" stroke="#ff5562" stroke-width="4"/>
+<text x="225" y="355" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">비권장</text>
+</g>
+<text x="600" y="558" text-anchor="middle" font-size="17" font-weight="700" fill="#326ed8">칼선은 이미지에서 약 2mm 바깥쪽으로 여유 있게 작업해 주세요</text>
+</g></svg>

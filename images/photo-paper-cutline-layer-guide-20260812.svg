@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="28" fill="#fff"/>
+<g font-family="Arial,Malgun Gothic,sans-serif">
+<text x="600" y="64" text-anchor="middle" font-size="34" font-weight="700" fill="#172033">모양재단 파일 작업 방법</text>
+<text x="600" y="100" text-anchor="middle" font-size="17" fill="#667085">이미지와 재단선을 분리해 정확하게 접수해 주세요</text>
+<g transform="translate(75 155)">
+<rect width="470" height="365" rx="24" fill="#f4f7fb"/>
+<path d="M80 244c60-20 75-94 145-114 61-18 87 43 157 37 1 71-49 129-132 129-81 0-139-18-170-52z" fill="#ffd95e"/>
+<path d="M65 253c61-27 72-110 154-133 72-20 101 48 177 34 12 91-52 161-149 161-91 0-157-22-182-62z" fill="none" stroke="#ff3f58" stroke-width="5"/>
+<text x="235" y="337" text-anchor="middle" font-size="17" font-weight="700" fill="#ff3f58">재단선은 이미지 바깥쪽에 배치</text>
+</g>
+<g transform="translate(605 155)">
+<rect width="520" height="365" rx="24" fill="#20242c"/>
+<rect x="40" y="52" width="440" height="64" rx="8" fill="#333944"/>
+<rect x="61" y="71" width="25" height="25" fill="#fff"/>
+<text x="105" y="94" font-size="20" fill="#fff">Cut</text>
+<text x="420" y="94" font-size="18" fill="#9aa5b5">칼선</text>
+<rect x="40" y="128" width="440" height="64" rx="8" fill="#333944"/>
+<rect x="61" y="147" width="25" height="25" fill="#ffd95e"/>
+<text x="105" y="170" font-size="20" fill="#fff">Image</text>
+<text x="398" y="170" font-size="18" fill="#9aa5b5">인쇄 이미지</text>
+<path d="M78 236h352" stroke="#ff3f58" stroke-width="3"/>
+<text x="260" y="280" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">Cut 레이어를 최상단에 배치</text>
+<text x="260" y="315" text-anchor="middle" font-size="15" fill="#c4ccd8">레이어명은 Cut으로 지정</text>
+</g>
+<rect x="155" y="552" width="890" height="44" rx="10" fill="#fff0f1" stroke="#ff8990"/>
+<text x="600" y="580" text-anchor="middle" font-size="16" font-weight="700" fill="#d93c48">칼선은 0.25pt 선으로 작업하고 채우기 색상은 없음으로 지정해 주세요</text>
+</g></svg>
