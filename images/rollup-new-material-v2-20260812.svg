@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="940" viewBox="0 0 2400 940">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".72" stop-color="#edf2f7"/><stop offset="1" stop-color="#d7e0eb"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c7d2df"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c6d5"/></linearGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#2f251d"/><stop offset=".48" stop-color="#5b3a20"/><stop offset=".72" stop-color="#a8753e"/><stop offset="1" stop-color="#d5a66b"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="13" flood-color="#5f6f82" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="2400" height="940" rx="34" fill="#ffffff"/>
+  <rect x="70" y="55" width="2260" height="830" rx="26" fill="#ffffff" stroke="#dce5f1" stroke-width="3"/>
+  <rect x="70" y="55" width="2260" height="116" rx="26" fill="#173765"/>
+  <path d="M70 145h2260v26H70z" fill="#173765"/>
+  <line x1="690" y1="55" x2="690" y2="885" stroke="#dce5f1" stroke-width="3"/>
+  <line x1="1680" y1="55" x2="1680" y2="885" stroke="#dce5f1" stroke-width="3"/>
+  <line x1="70" y1="171" x2="2330" y2="171" stroke="#dce5f1" stroke-width="3"/>
+  <line x1="70" y1="409" x2="2330" y2="409" stroke="#dce5f1" stroke-width="3"/>
+  <line x1="70" y1="647" x2="2330" y2="647" stroke="#dce5f1" stroke-width="3"/>
+  <text x="380" y="126" text-anchor="middle" font-family="Pretendard,'Noto Sans KR',Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">소재</text>
+  <text x="1185" y="126" text-anchor="middle" font-family="Pretendard,'Noto Sans KR',Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">특징</text>
+  <text x="2005" y="126" text-anchor="middle" font-family="Pretendard,'Noto Sans KR',Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">추천 용도</text>
+
+  <g font-family="Pretendard,'Noto Sans KR',Arial,sans-serif">
+    <text x="135" y="315" font-size="48" font-weight="900" fill="#172033">PET</text>
+    <text x="135" y="553" font-size="48" font-weight="900" fill="#172033">유포지</text>
+    <text x="135" y="791" font-size="48" font-weight="900" fill="#172033">합성지</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(350 225)"><path d="M0 94C50 30 123 3 239 8l58 9-18 91c-113-3-195 20-257 72z" fill="url(#paper)"/><ellipse cx="245" cy="62" rx="70" ry="64" fill="url(#edge)"/><ellipse cx="245" cy="62" rx="31" ry="30" fill="url(#core)"/></g>
+    <g transform="translate(350 463)"><path d="M0 94C50 30 123 3 239 8l58 9-18 91c-113-3-195 20-257 72z" fill="url(#paper)"/><ellipse cx="245" cy="62" rx="70" ry="64" fill="url(#edge)"/><ellipse cx="245" cy="62" rx="31" ry="30" fill="url(#core)"/></g>
+    <g transform="translate(350 701)"><path d="M0 94C50 30 123 3 239 8l58 9-18 91c-113-3-195 20-257 72z" fill="url(#paper)"/><ellipse cx="245" cy="62" rx="70" ry="64" fill="url(#edge)"/><ellipse cx="245" cy="62" rx="31" ry="30" fill="url(#core)"/></g>
+  </g>
+
+  <g font-family="Pretendard,'Noto Sans KR',Arial,sans-serif" font-size="34" fill="#334155">
+    <text x="760" y="267"><tspan x="760" dy="0">발색이 우수하고 내구성이 뛰어나</tspan><tspan x="760" dy="58">선명한 이미지 표현에 적합합니다.</tspan></text>
+    <text x="760" y="505"><tspan x="760" dy="0">가성비가 좋고 색 표현이 선명하여</tspan><tspan x="760" dy="58">일반적인 실내 홍보에 적합합니다.</tspan></text>
+    <text x="760" y="743"><tspan x="760" dy="0">말림과 구김에 강해 이동이 잦거나</tspan><tspan x="760" dy="58">반복 사용하는 환경에 적합합니다.</tspan></text>
+  </g>
+
+  <g font-family="Pretendard,'Noto Sans KR',Arial,sans-serif" text-anchor="middle">
+    <text x="2005" y="267" font-size="35" font-weight="800" fill="#172033"><tspan x="2005" dy="0">고급 이미지 · 장기간 사용</tspan><tspan x="2005" dy="56" font-size="28" font-weight="500" fill="#667085">전시 · 브랜드 홍보</tspan></text>
+    <text x="2005" y="505" font-size="35" font-weight="800" fill="#172033"><tspan x="2005" dy="0">이벤트 안내 · 단기 사용</tspan><tspan x="2005" dy="56" font-size="28" font-weight="500" fill="#667085">매장 · 행사 안내</tspan></text>
+    <text x="2005" y="743" font-size="35" font-weight="800" fill="#172033"><tspan x="2005" dy="0">잦은 이동 · 반복 사용</tspan><tspan x="2005" dy="56" font-size="28" font-weight="500" fill="#667085">전시회 · 순회 행사</tspan></text>
+  </g>
+</svg>
