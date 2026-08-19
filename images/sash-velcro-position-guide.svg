@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect x="2" y="2" width="1196" height="716" rx="26" fill="#ffffff" stroke="#dfe4eb" stroke-width="2"/>
+  <g font-family="Malgun Gothic,Noto Sans KR,Apple SD Gothic Neo,sans-serif">
+    <text x="600" y="64" text-anchor="middle" font-size="30" font-weight="800" fill="#171717">벨크로 부착 위치 안내</text>
+    <text x="600" y="98" text-anchor="middle" font-size="17" font-weight="600" fill="#666666">어깨띠를 먼저 착용한 후 양 끝이 겹치는 실제 위치를 확인해 주세요.</text>
+
+    <g transform="translate(55 135)">
+      <circle cx="42" cy="34" r="23" fill="#2468d8"/>
+      <text x="42" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#ffffff">1</text>
+      <text x="80" y="42" font-size="23" font-weight="800" fill="#171717">몸에 둘러 위치 확인</text>
+      <circle cx="190" cy="150" r="62" fill="#e9edf3"/>
+      <path d="M125 252 C132 194 157 172 190 172 C223 172 248 194 255 252 L270 405 L110 405 Z" fill="#d7dde6"/>
+      <path d="M143 111 C154 74 226 74 237 111 C245 137 226 173 190 173 C154 173 135 137 143 111 Z" fill="#d7dde6"/>
+      <path d="M128 185 L177 158 L258 357 L224 383 Z" fill="#f9fbff" stroke="#2468d8" stroke-width="3"/>
+      <path d="M150 174 L190 158 L204 197 L164 213 Z" fill="#0f3f59"/>
+      <path d="M164 213 L204 197 L225 249 L185 265 Z" fill="#2468d8"/>
+      <path d="M185 265 L225 249 L258 330 L218 346 Z" fill="#55a8f6"/>
+      <circle cx="240" cy="355" r="48" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="10 8"/>
+      <line x1="274" y1="389" x2="306" y2="421" stroke="#ef4770" stroke-width="4"/>
+      <text x="190" y="450" text-anchor="middle" font-size="18" font-weight="700" fill="#ef4770">반대쪽 허리에서 양 끝을 겹칩니다.</text>
+    </g>
+
+    <g transform="translate(420 135)">
+      <circle cx="42" cy="34" r="23" fill="#2468d8"/>
+      <text x="42" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#ffffff">2</text>
+      <text x="80" y="42" font-size="23" font-weight="800" fill="#171717">겹치는 면 확인</text>
+      <path d="M85 125 H205 V415 L145 367 L85 415 Z" fill="#f9fbff" stroke="#cfd7e2" stroke-width="2"/>
+      <path d="M85 125 H205 V205 L85 170 Z" fill="#0f3f59"/>
+      <path d="M85 170 L205 140 V238 L85 273 Z" fill="#2468d8"/>
+      <path d="M85 310 L205 270 V365 L145 367 L85 415 Z" fill="#55a8f6"/>
+      <path d="M235 125 H355 V415 L295 367 L235 415 Z" fill="#f9fbff" stroke="#cfd7e2" stroke-width="2"/>
+      <path d="M235 125 H355 V205 L235 170 Z" fill="#0f3f59"/>
+      <path d="M235 170 L355 140 V238 L235 273 Z" fill="#2468d8"/>
+      <path d="M235 310 L355 270 V365 L295 367 L235 415 Z" fill="#55a8f6"/>
+      <rect x="111" y="305" width="54" height="54" rx="5" fill="#f4ecaa" stroke="#d6ca67" stroke-width="2"/>
+      <rect x="275" y="305" width="54" height="54" rx="5" fill="#f4ecaa" stroke="#d6ca67" stroke-width="2"/>
+      <circle cx="138" cy="332" r="48" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="10 8"/>
+      <circle cx="302" cy="332" r="48" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="10 8"/>
+      <text x="220" y="458" text-anchor="middle" font-size="18" font-weight="700" fill="#ef4770">서로 맞닿는 안쪽 면에 한 장씩 부착합니다.</text>
+    </g>
+
+    <g transform="translate(875 135)">
+      <circle cx="42" cy="34" r="23" fill="#2468d8"/>
+      <text x="42" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#ffffff">3</text>
+      <text x="80" y="42" font-size="23" font-weight="800" fill="#171717">벨크로 부착</text>
+      <path d="M35 210 H260 V305 L148 340 L35 305 Z" fill="#f9fbff" stroke="#cfd7e2" stroke-width="2"/>
+      <path d="M35 210 H260 V250 L35 285 Z" fill="#2468d8"/>
+      <rect x="120" y="277" width="56" height="56" rx="5" fill="#f4ecaa" stroke="#d6ca67" stroke-width="2"/>
+      <path d="M62 325 H288 V420 L175 455 L62 420 Z" fill="#f9fbff" stroke="#cfd7e2" stroke-width="2"/>
+      <path d="M62 325 H288 V365 L62 400 Z" fill="#55a8f6"/>
+      <rect x="147" y="342" width="56" height="56" rx="5" fill="#eee69a" stroke="#cbbf58" stroke-width="2"/>
+      <path d="M278 255 C320 285 320 365 278 396" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="9 7"/>
+      <path d="M280 395 l-5 -16 l17 6 z" fill="#ef4770"/>
+      <text x="160" y="492" text-anchor="middle" font-size="18" font-weight="700" fill="#ef4770">부착면을 마주 보게 겹쳐 고정합니다.</text>
+    </g>
+
+    <rect x="58" y="628" width="1084" height="58" rx="14" fill="#fff4f7" stroke="#f3b5c4"/>
+    <text x="600" y="665" text-anchor="middle" font-size="18" font-weight="800" fill="#d92f58">※ 벨크로는 부착하지 않고 별도 동봉됩니다. 반드시 실제 착용 후 체형에 맞는 위치를 확인하여 부착해 주세요.</text>
+  </g>
+</svg>
