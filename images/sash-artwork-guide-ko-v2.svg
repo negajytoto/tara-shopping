@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" rx="28" fill="#ffffff"/>
+  <text x="600" y="68" text-anchor="middle" font-family="Malgun Gothic,Noto Sans KR,Apple SD Gothic Neo,sans-serif" font-size="28" font-weight="800" fill="#171717">앞면·뒷면 작업 가이드</text>
+  <g font-family="Malgun Gothic,Noto Sans KR,Apple SD Gothic Neo,sans-serif">
+    <line x1="380" y1="120" x2="500" y2="120" stroke="#ef4770" stroke-width="3"/>
+    <path d="M380 120 l12 -7 v14 z M500 120 l-12 -7 v14 z" fill="#ef4770"/>
+    <text x="440" y="104" text-anchor="middle" font-size="21" font-weight="800" fill="#ef4770">100mm</text>
+    <line x1="325" y1="150" x2="325" y2="750" stroke="#ef4770" stroke-width="3"/>
+    <path d="M325 150 l-7 12 h14 z M325 750 l-7 -12 h14 z" fill="#ef4770"/>
+    <text x="302" y="455" text-anchor="middle" font-size="21" font-weight="800" fill="#ef4770" transform="rotate(-90 302 455)">900mm</text>
+
+    <g>
+      <path d="M380 150 H500 V750 L440 700 L380 750 Z" fill="#f8fafc" stroke="#d8dee7" stroke-width="2"/>
+      <path d="M380 150 H500 V280 L380 215 Z" fill="#0f3f59"/>
+      <path d="M380 205 L500 150 V240 L380 300 Z" fill="#2468d8"/>
+      <path d="M380 260 L500 215 V330 L380 370 Z" fill="#55a8f6"/>
+      <rect x="398" y="350" width="84" height="235" rx="42" fill="#eaf2ff"/>
+      <circle cx="440" cy="408" r="24" fill="#2468d8"/>
+      <rect x="425" y="450" width="30" height="105" rx="15" fill="#2468d8"/>
+      <path d="M380 635 L500 590 V690 L440 700 L380 750 Z" fill="#2468d8"/>
+      <path d="M380 690 L440 650 L500 690 V750 L440 700 L380 750 Z" fill="#0f3f59"/>
+      <text x="440" y="800" text-anchor="middle" font-size="24" font-weight="800" fill="#171717">앞면</text>
+    </g>
+
+    <g>
+      <path d="M550 150 H670 V750 L610 700 L550 750 Z" fill="#f8fafc" stroke="#d8dee7" stroke-width="2"/>
+      <path d="M550 150 H670 V280 L550 215 Z" fill="#0f3f59"/>
+      <path d="M550 205 L670 150 V240 L550 300 Z" fill="#2468d8"/>
+      <path d="M550 260 L670 215 V330 L550 370 Z" fill="#55a8f6"/>
+      <rect x="568" y="350" width="84" height="235" rx="42" fill="#eaf2ff"/>
+      <circle cx="610" cy="408" r="24" fill="#2468d8"/>
+      <rect x="595" y="450" width="30" height="105" rx="15" fill="#2468d8"/>
+      <path d="M550 635 L670 590 V690 L610 700 L550 750 Z" fill="#2468d8"/>
+      <path d="M550 690 L610 650 L670 690 V750 L610 700 L550 750 Z" fill="#55a8f6"/>
+      <text x="610" y="800" text-anchor="middle" font-size="24" font-weight="800" fill="#171717">뒷면</text>
+    </g>
+
+    <ellipse cx="610" cy="205" rx="79" ry="66" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="10 8"/>
+    <line x1="689" y1="205" x2="765" y2="205" stroke="#ef4770" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="790" y="170" font-size="21" font-weight="800" fill="#ef4770">어깨에 걸쳐서 돌아가는 부분입니다.</text>
+    <text x="790" y="202" font-size="19" font-weight="700" fill="#ef4770">체격조건에 따라 50~100mm 정도</text>
+    <text x="790" y="231" font-size="19" font-weight="700" fill="#ef4770">돌아가는 길이가 달라지므로</text>
+    <text x="790" y="260" font-size="19" font-weight="700" fill="#ef4770">디자인 작업 시 꼭 참고해주세요!</text>
+
+    <ellipse cx="610" cy="690" rx="79" ry="70" fill="none" stroke="#ef4770" stroke-width="4" stroke-dasharray="10 8"/>
+    <line x1="689" y1="690" x2="765" y2="690" stroke="#ef4770" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="790" y="640" font-size="20" font-weight="800" fill="#ef4770">리본모양 재단 시 작업선으로부터</text>
+    <text x="790" y="671" font-size="19" font-weight="700" fill="#ef4770">80~100mm 정도 오차범위 내에서</text>
+    <text x="790" y="700" font-size="19" font-weight="700" fill="#ef4770">삼각형 모양으로 잘려나가니</text>
+    <text x="790" y="729" font-size="19" font-weight="700" fill="#ef4770">중요한 그림과 글씨는 피해주셔야 해요.</text>
+  </g>
+</svg>
